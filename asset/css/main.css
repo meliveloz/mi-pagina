@@ -13,6 +13,9 @@
 }
 .menu{
 	display: inline-block;
+	padding: 0;
+	margin: 0;
+	text-align: center;
 }
 .galaxyphoto{
 	width: 100%;
@@ -23,16 +26,34 @@
 	display: inline-block;
 	padding-left: 2em;
 	padding-right:100vh;
+	cursor: pointer;
 }
 .navlist{
 	display: inline-block;
 	padding-right: 1.5em;
 	padding-top: 1.5em;
 	font-weight: bolder;
-}
+	padding-left: 1em;
+    padding-bottom: 1.3em;
+    cursor: pointer;
+    color: white;
 
+
+}
+.link{
+	text-decoration: none;
+	color:#C8C8C8;
+	display: block;
+
+}
+.link:hover{
+	color: white;
+}
 .navlist:hover,.navetitle:hover{
 	color:white;
+}
+.navlist:hover{
+	background: #767676;
 }
 
 .ceropadding{
@@ -176,81 +197,6 @@
 
 }
 
-
-@media (max-width: 575px){
-	[class*="col-"]{
-		width: 100%;
-	}
-	.menu{
-		display: none;
-	}
-	.fa-bars{
-		display: inline-block;
-		font-size: 2em;
-	}
-	.navetitle{
-		padding-right: 50vh;
-		padding-top: 3vh;
-	}
-	.contactus{
-		width: 50%;
-		margin-left: 25%;
-		margin-top: 0;
-	}
-
-}
-
-
-@media (min-width: 576px) and (max-width: 767px) {
-	[class*="col-"]{
-		width: 100%;
-	}
-	.menu{
-		display: none;
-	}
-	.fa-bars{
-		display: inline-block;
-		font-size: 2em;
-	}
-	.navetitle{
-		padding-right: 80vh;
-		padding-top: 3vh;
-	}
-	.contactus{
-		width: 50%;
-		margin-left: 25%;
-		margin-top: 0;
-	}
-}
-@media (min-width: 768px) and (max-width: 991px){
-	[class*="col-"]{
-		width: 100%;
-	}
-	.navetitle{
-		padding-right: 70vh;
-	}
-	.contactus{
-		width: 50%;
-		margin-top: 0;
-		margin-left: 25%;
-	}
-
-}
-@media (min-width: 992px) and (max-width: 1199px){
-	[class*="col-"]{
-		width: 100%;
-	}
-	.navetitle{
-		padding-right: 80vh;
-
-	}
-	.contactus{
-		width: 50%;
-		margin-left: 25%;
-		margin-top: 0;
-	}
-
-}
 
 
 
