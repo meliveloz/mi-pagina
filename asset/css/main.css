@@ -2,18 +2,16 @@
 	max-width: 1366px;
 }
 
-.nave{
+nav{
  	background:#343a40;
  	color:#C8C8C8;
  	font-family: 'Montserrat', sans-serif;
- 	height: 4em;
  	border-bottom: 1px solid #B9B6B6;
  	position: fixed;
  	width: 100%;
 }
 .menu{
 	display: inline-block;
-	padding: 0;
 	margin: 0;
 	text-align: center;
 }
@@ -22,11 +20,14 @@
 	height: 100%;
 	padding-top: 9vh;
 }
+.navcolumn{
+	text-align: right;
+}
 .navetitle{
 	display: inline-block;
 	padding-left: 2em;
-	padding-right:100vh;
 	cursor: pointer;
+	padding-top: 0.6em;
 }
 .navlist{
 	display: inline-block;
@@ -77,9 +78,9 @@
 
 .contactus{
 	background:#898686;
-	margin-left: 15%;
-	width: 21%;
-	margin-top: 10vh;
+	text-align: justify;
+	padding-top: 4vh;
+
 }
 .contacttitle{
 	color: #302759;
@@ -96,7 +97,7 @@
 }
 .whatdo{
 	padding-left: 10%;
-	height: 60vh;
+	
 }
 .titlewhatdo{
 	font-size: 2em;
